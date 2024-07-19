@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Secure Password Hashing and Verification</Title>
+    <Authors>Md Arifuzzaman Tanin</Authors>
+    <Company />
+    <Description>AuthShield provides a robust and modern solution for managing passwords securely. It includes utilities for generating salted hashes and verifying passwords using the latest cryptographic standards. This package utilizes PBKDF2 with SHA-256 for hashing, ensuring high security against common attacks.
+
+Generate Salted Hashes: Create strong, salted password hashes for secure storage.
+Verify Passwords: Efficiently check if a provided password matches a stored hash.
+Modern Practices: Leverages RandomNumberGenerator and up-to-date cryptographic algorithms.
+
+Ideal for developers looking to enhance security in authentication systems with easy-to-use, reliable password management tools.</Description>
+  </PropertyGroup>
+
+</Project>
